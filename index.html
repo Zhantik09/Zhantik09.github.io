@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rarallax Scrolling Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Logo</a>
+		<ul>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Work</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</header>
+	<section>
+		<h2 id="text">Moon Light</h2>
+		<img src="stars.png" id="stars">
+		<img src="moon.png" id="moon">
+		<img src="mountains_behind.png" id="mountains_behind">
+	</section>
+	<div class="sec">
+		<h2>Parallax Scrolling Effects</h2>
+		<p>“Stars, too, were time travelers. How many of those ancient points of light were the last echoes of suns now dead? How many had been born, but their light not yet come this far? If all the suns but ours collapsed tonight, how many lifetimes would it take us to realize we were alone? I had always known the sky was full of mysteries — but not until now had I realized how full of them the earth was.” — Ransom Riggs, Miss Peregrine’s Home for Peculiar Children</p>
+		<br><br>“Stars, too, were time travelers. How many of those ancient points of light were the last echoes of suns now dead? How many had been born, but their light not yet come this far? If all the suns but ours collapsed tonight, how many lifetimes would it take us to realize we were alone? I had always known the sky was full of mysteries — but not until now had I realized how full of them the earth was.” — Ransom Riggs, Miss Peregrine’s Home for Peculiar Children
+		<br><br>“Stars, too, were time travelers. How many of those ancient points of light were the last echoes of suns now dead? How many had been born, but their light not yet come this far? If all the suns but ours collapsed tonight, how many lifetimes would it take us to realize we were alone? I had always known the sky was full of mysteries — but not until now had I realized how full of them the earth was.” — Ransom Riggs, Miss Peregrine’s Home for Peculiar Children
+	</div>
+	<script>
+		let stars=document.getElementById('stars');
+		let moon=document.getElementById('moon');
+		let mountains_behind=document.getElementById('mountains_behind');
+		let text=document.getElementById('text');
+
+		window.addEventListener('scroll', function(){
+			let value = window.scrollY;
+			stars.style.left = value * 0.25 + 'px';
+			moon.style.left = value * 1.05 + 'px';
+			text.style.marginRight = value * 4 + 'px';
+		})
+	</script>
+</body>
+</html>
