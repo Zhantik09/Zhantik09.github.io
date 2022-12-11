@@ -1,0 +1,134 @@
+/*home page text style*/
+.container{
+  font-family: 'Georgia', sans-serif, bold;
+  font-size: 18pt;
+  display: block;
+  margin: 100px;
+  text-align: center;
+  border-style: dotted;
+  border-color: darkviolet;
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+}
+
+/*homepage embeded video position*/
+.video-container{
+  align-items: center;
+}
+
+/**/
+.process-creation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+
+}
+
+/*text on process page*/
+.process-creation h1 {
+  align-items: center;
+  margin-top: 20vh;
+  font-family: 'Georgia', sans-serif, bold;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#processText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+  width: 85vmin;
+  margin-top: 3vh;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 400;
+}
+/*text on contact page*/
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+  width: 85vmin;
+  margin-top: 5vh;
+  font-family: "Georgia",  bold;
+  font-weight: 400;
+}
+
+
+.contact-us2{
+  font-family: "Georgia",  bold;
+  text-align: center;
+  width: 50%;
+  padding-top: 100px;
+}
+
+/*nav bar everywhere*/
+.NavBar {
+  position: fixed;
+  width: 200vw;
+  height: auto;
+}
+
+
+.navigation {
+  font-family: "Copperplate",  bold;
+  font-weight: 300;
+  margin: 10px 20px 10px 260px;
+  color: #FF00FF;
+  font-size: 25pt;
+  text-shadow: 0 0 2px red;
+
+}
+.navigation:hover { 
+  color: #00FF00;
+   }
+
+/*style that i used for many objects to center them all*/
+.center {
+  display: block;
+  font-family: "Georgia",  bold;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  letter-spacing: 1px;
+  width: 150px;
+  text-align: center;
+}
+
+/*nav bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: black;
+}
+
+a:hover {color: #EE82EE}  
+
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+    color: #4B0082;
+}
+
+
+
+
